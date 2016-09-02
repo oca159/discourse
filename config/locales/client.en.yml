@@ -3157,6 +3157,9 @@ en:
 
   wizard_js:
     wizard:
+      preview:
+        title: "Welcome to Discourse"
+        reply: "Reply"
       done: "Done"
       back: "Back"
       next: "Next"

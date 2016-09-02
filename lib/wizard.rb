@@ -46,6 +46,8 @@ class Wizard
     scheme = theme.add_field(id: 'color_scheme', type: 'dropdown', required: true)
     scheme.add_option('default')
     scheme.add_option('dark')
+
+    theme.add_field(id: 'scheme_preview', type: 'component')
     wizard.append_step(theme)
 
     finished = wizard.create_step('finished')
